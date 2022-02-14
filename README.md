@@ -3,13 +3,13 @@
 Thank you for your selection to enroll my course!
 
 From this repository we release slides and corresponding resources for the course 
-"Computer Network", offered by CS of Wuhan University.
+"Computer Network", offered by School of CS of Wuhan University.
 
 **Please leve your comment, suggestion, question in the comment feedback or send me emails!**
 
 This is the teaching resource repository for the courses of CS, Wuhan University:
-* 2021200273 "Computer Network" for native students
-* (2021-2022-2)-0800074 "Computer Network" for international students
+* 2021200273 "Computer Networking" for native students
+* (2021-2022-2)-0800074 "Computer Networking" for international students
 
 The Internet has been driving tremendous change in the world since this century,
 while continuously changing and evolving on its own. 
@@ -55,7 +55,23 @@ Professor Jicheng Hu
 #### [6 The Link Layer and LANs](pptx/chapter6.pptx)
 
 
-## 2 git, github and gitee
+## 2 Grading
+
+The final grade in this course is comprised of the following components:
+
+- Participation: 10%
+    - Daily in-class participation and enthusiasm
+    - or Portfolio Assignments
+    - or Midterm
+- Homework exercise: 10%
+    - Homework
+    - or Portfolio Assignments
+- Lab: 20%
+- Evaluative: 60%
+    - Final Exam
+
+
+## 3 git, github and gitee
 
 In this course we will employ git as project management tool for teaching, training 
 and excercising. We highly recommand that our students use github as daily used 
@@ -66,7 +82,7 @@ meanwhile you may use gitee as a main backup source of remote repositories.
 From [https://git-scm.com/downloads](https://git-scm.com/downloads)
 you may download the most recent version of git and then make default installation.
 
-### 2.1 SSH Connection
+### 3.1 SSH Connection
 
 
 Use git tools to manage projects, often using SSH to connect to code repositories. 
@@ -80,27 +96,27 @@ Generate and use ssh-key:
 [Please refer to ssh-key](git/ssh_gitee.md)
 
 
-### 2.2 Push to Remote Repositories
+### 3.2 Push to Remote Repositories
 
 The method of synchronizing the local repository to 
 github and gitee can be found at:
 
 [synchronizing the local repository to gitee and github](git/gitee_n_github.md)
 
-#### 2.2.1  github
+#### 3.2.1  github
 
 The installation of github extension can be found on the instructional slide.
 
-#### 2.2.2  gitee
+#### 3.2.2  gitee
 
 In fact, github extension already covers the role of gitee extension.
 VS extension download address for gitee:
 
 https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 
-### [2.3 frequently used git commands](git/frequentlyUsed.md)
+### [3.3 frequently used git commands](git/frequentlyUsed.md)
 
-### [2.4 New git preview features](git/preview_features.md)
+### [3.4 New git preview features](git/preview_features.md)
 
 
 ## Academic Integrity
