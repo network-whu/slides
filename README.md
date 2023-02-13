@@ -8,8 +8,14 @@ From this repository we release slides and corresponding resources for the cours
 **Please leve your comment, suggestion, question in the comment feedback or send me emails!**
 
 This is the teaching resource repository for the courses of CS, Wuhan University:
-* 2021200273 "Computer Networking" for native students
-* (2021-2022-2)-0800074 "Computer Networking" for international students
+* (2022-2023-2)-3140520011020-软卓 "Computer Networking" for native students
+    - 2:00PM - 3:40PM, Monday Afternoon, Week 3 to Week 14, Room 2-105, Building 2, Campus 2
+    - 8:00AM - 9:40AM, Wednesday Morning, Week 3 to Week 14, Room 2-108, Building 2, Campus 2
+* (2022-2023-2)-3100520043006-01 "Computer Networking" for international students
+    - 9:50AM - 12:10PM, Monday Morning, Week 2 to Week 16, Room 4-201, Building of International Software, Campus 2
+
+1	2022-2023	2	计算机网络	(2022-2023-2)-3140520011020-软卓	33	星期一第6-7节{3-14周};星期三第1-2节{3-14周}	3区2-105;3区2-108	2021软件工程	胡继承
+2	2022-2023	2	计算机网络	(2022-2023-2)-3100520043006-01	4	星期一第3-5节{2-16周}	国软4-201	2021软件工程（留学生班）	胡继承
 
 The Internet has been driving tremendous change in the world since this century,
 while continuously changing and evolving on its own. 
@@ -23,36 +29,36 @@ network applications.
 And familiar with the various protocols of computer network, 
 explore issues of network security.
 
-#### Prerequisites:
+## Prerequisites:
 * Principles of Computer Systems
 * C / C++, Python
 * Data structure
 
 Credits: 3.0
 
-#### Topics include:
+## Topics include:
 * Web/http, voice-over-IP, p2p file sharing and socket programming
 * Reliable transport: TCP/IP, reliable transfer, flow control, and congestion control
 * The network layer: names and addresses, routing
 * Local area networks: ethernet and switches
 * Wireless networks and network security
 
-#### Instructor: 
+## Instructor: 
 Professor Jicheng Hu
 
 ## 1 Instruction slides:
 
-#### [1 Introduction](pptx/chapter1.pptx)
+### [1 Introduction](pptx/chapter1.pptx)
 
-#### [2 Application Layer](pptx/chapter2.pptx)
+### [2 Application Layer](pptx/chapter2.pptx)
 
-#### [3 Transport Layer](pptx/chapter3.pptx)
+### [3 Transport Layer](pptx/chapter3.pptx)
 
-#### [4 Network Layer - the Data Plane](pptx/chapter4.pptx)
+### [4 Network Layer - the Data Plane](pptx/chapter4.pptx)
 
-#### [5 Network Layer - the Control Plane](pptx/chapter5.pptx)
+### [5 Network Layer - the Control Plane](pptx/chapter5.pptx)
 
-#### [6 The Link Layer and LANs](pptx/chapter6.pptx)
+### [6 The Link Layer and LANs](pptx/chapter6.pptx)
 
 
 ## 2 Grading
