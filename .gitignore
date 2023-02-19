@@ -33,3 +33,6 @@
 
 .vs/
 
+# office temporary files
+~$*.pptx
+~$*.docx

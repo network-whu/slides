@@ -1,9 +1,9 @@
-# Computer Networks
+# Computer Networking
 
-Thank you for your selection to enroll my course!
+Thank you for taking my course!
 
 From this repository we release slides and corresponding resources for the course 
-"Computer Network", offered by School of CS of Wuhan University.
+"Computer Networking", offered by School of CS, Wuhan University.
 
 **Please leve your comment, suggestion, question in the comment feedback or send me emails!**
 
@@ -13,9 +13,6 @@ This is the teaching resource repository for the courses of CS, Wuhan University
     - 8:00AM - 9:40AM, Wednesday Morning, Week 3 to Week 14, Room 2-108, Building 2, Campus 2
 * (2022-2023-2)-3100520043006-01 "Computer Networking" for international students
     - 9:50AM - 12:10PM, Monday Morning, Week 2 to Week 16, Room 4-201, Building of International Software, Campus 2
-
-1	2022-2023	2	计算机网络	(2022-2023-2)-3140520011020-软卓	33	星期一第6-7节{3-14周};星期三第1-2节{3-14周}	3区2-105;3区2-108	2021软件工程	胡继承
-2	2022-2023	2	计算机网络	(2022-2023-2)-3100520043006-01	4	星期一第3-5节{2-16周}	国软4-201	2021软件工程（留学生班）	胡继承
 
 The Internet has been driving tremendous change in the world since this century,
 while continuously changing and evolving on its own. 
@@ -63,7 +60,7 @@ Professor Jicheng Hu
 
 ## 2 Grading
 
-The final grade in this course is comprised of the following components:
+The final grade in this course is comprised of the following assessment components:
 
 - Participation: 10%
     - Daily in-class participation and enthusiasm
@@ -90,12 +87,10 @@ you may download the most recent version of git and then make default installati
 
 ### 3.1 SSH Connection
 
-
 Use git tools to manage projects, often using SSH to connect to code repositories. 
-How to install win10 SSH client please refer:
+How to install win11 SSH client please refer:
 
-[Install SSH on Win10](git/ssh_client.md)
-
+[Install SSH on Win11](git/ssh_client.md)
 
 Generate and use ssh-key:
 
@@ -108,17 +103,6 @@ The method of synchronizing the local repository to
 github and gitee can be found at:
 
 [synchronizing the local repository to gitee and github](git/gitee_n_github.md)
-
-#### 3.2.1  github
-
-The installation of github extension can be found on the instructional slide.
-
-#### 3.2.2  gitee
-
-In fact, github extension already covers the role of gitee extension.
-VS extension download address for gitee:
-
-https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 
 ### [3.3 frequently used git commands](git/frequentlyUsed.md)
 
