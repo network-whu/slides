@@ -1,5 +1,39 @@
-# A brief introduction to IGP and BGP
+# The Internet inter-AS routing: BGP
 
+BGP (Border Gateway Protocol) is the de facto inter-domain routing protocol, 
+which is "glue that holds the Internet together".
+
+
+## Index
+
+1. [EGP and BGP](#egp-and-bgp)
+2. [IGP and BGP](#igp-and-bgp)
+
+
+## 1. EGP and BGP
+
+- https://www.tutorialspoint.com/what-is-exterior-gateway-protocol-egp
+- https://www.techopedia.com/definition/6987/exterior-gateway-protocol-egp
+
+Exterior Gateway Protocol (EGP) is an obsolete routing protocol that 
+was used for data exchange between neighboring gateway hosts in autonomous 
+systems. EGP was frequently used by research institutes, universities, 
+government agencies and private organizations, but was replaced by Border 
+Gateway Protocol (BGP)
+
+Border Gateway Protocol (BGP) is the only one EGP used in modern TCP/IP. 
+BGP is very important since it is used on the current Internet and 
+other larger networks. The Exterior Gateway Protocol (EGP) is an 
+obsolete protocol that was used for communication between non-core 
+routers and the router core in the early Internet.
+Therefore, the Internet currently uses a single interdomain routing 
+protocol: the Border Gateway Protocol (BGP). The current version 
+of BGP is defined in RFC 4271.
+
+[Back to index](#index)
+
+
+## 2. IGP and BGP
 
 > **IGP handles all internal routes and BGP handles all global 
 internet routes.**
@@ -7,6 +41,17 @@ internet routes.**
 For scalability and administrative autonomy, routers on the 
 Internet are aggregated into autonomous systems (ASes) that are 
 independently controlled by different organizations and companies. 
+
+BGP was purpose-built for exchanging routes between autonomous systems. 
+It is designed as a protocol that carries routes with next-hops. It 
+does not carry topology information or information on how to reach 
+those next-hops. It is the equivalent of someone saying "To get to the 
+pneumatic store go to the March 4 Lane" without telling how to get to 
+the March 4 Lane.
+
+IGPs were not designed to handle the scale of routing information and 
+their functioning would be negatively impacted by the large scale of 
+the Internet routing table.
 
 Interior Gateway Protocols (**IGP**s) such as RIP, OSPF and EIGRP 
 are used to communicate routing information between routers 
@@ -32,15 +77,6 @@ Border Gateway Protocol (BGP) is a standardized exterior gateway
 protocol designed to exchange routing and reachability information 
 between autonomous systems (AS) on the Internet. This protocol is 
 a distance-vector routing protocol.
-
-Border Gateway Protocol (BGP) is the only one EGP used in modern TCP/IP. 
-BGP is very important since it is used on the current Internet and 
-other larger networks. The Exterior Gateway Protocol (EGP) is an 
-obsolete protocol that was used for communication between non-core 
-routers and the router core in the early Internet.
-Therefore, the Internet currently uses a single interdomain routing 
-protocol : the Border Gateway Protocol (BGP). The current version 
-of BGP is defined in RFC 4271.
 
 IGPs are used to exchange routing information within an AS. In 
 contrast, BGP is for determining network reachability between ASes 
@@ -141,4 +177,7 @@ and flexibility you get from iBGP means that it's a slower
 converging protocol than IGPs (in general).
 
 
+
+
+[Back to index](#index)
 
