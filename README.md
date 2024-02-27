@@ -8,11 +8,8 @@ From this repository we release slides and corresponding resources for the cours
 **Please leve your comment, suggestion, question in the comment feedback or send me emails!**
 
 This is the teaching resource repository for the courses of CS, Wuhan University:
-* (2022-2023-2)-3140520011020-软卓 "Computer Networking" for native students
-    - 2:00PM - 3:40PM, Monday Afternoon, Week 3 to Week 14, Room 2-105, Building 2, Campus 2
-    - 8:00AM - 9:40AM, Wednesday Morning, Week 3 to Week 14, Room 2-108, Building 2, Campus 2
-* (2022-2023-2)-3100520043006-01 "Computer Networking" for international students
-    - 9:50AM - 12:10PM, Monday Morning, Week 2 to Week 16, Room 4-201, Building of International Software, Campus 2
+* (2023-2024-2)-3100520043006-1 "Computer Networking" for international students
+    - 9:50AM - 12:10PM, Wednesday Morning, Week 1 to Week 16, Room 4-201, Building of International Software, Campus 2
 
 The Internet has been driving tremendous change in the world since this century,
 while continuously changing and evolving on its own. 
